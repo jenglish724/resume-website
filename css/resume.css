@@ -4,3 +4,9 @@
 	margin: 0 0 20px 25px;
 }
 
+#rightcolumn ul
+{
+	list-style-type:none;
+	text-align:center;
+}
+
