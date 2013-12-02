@@ -10,7 +10,8 @@ form div {
 	}
 	
 	/* add some padding a black outline around the text inputs */
-	form input[type="text"] {
+	form input[type="text"],
+	textarea {
 		padding: 5px 10px;
 		border: 1px solid #000;
 	}
