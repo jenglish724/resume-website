@@ -14,13 +14,25 @@
 
 /* -=- -=- -=- COMMON TAGS -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- */
 
-/* headers */ 
+/* H1 is only used for the logo link at the top of the page */
 h1 {
 	margin: 0 0 10px 0;
 	font-size: 20pt; /* always use points for fontsize unless absolutely necessary */
 	color:#CC4547;
 	font-weight:bold;
+	min-width: 280px;
+	min-height: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../img/header-image.png") no-repeat;
 }
+	h1 a  {
+		text-indent: -999em; /* moves the link's text outside of the A's borders */
+		overflow: hidden; /* makes things outside of the A invisible (aka the text) */
+		display: block;
+		white-space: nowrap;
+	}
+
 h2 {
 	margin: 0 0 10px 0;
 	font-size: 18pt; /* always use points for fontsize unless absolutely necessary */
@@ -50,22 +62,6 @@ p {
 	width:35%;
 }
 
-#header {
-	min-width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-}
-	#header h1 {
-		min-width: 280px;
-		min-height: 64px;
-		background: url("../img/header-image.png") no-repeat;
-	}
-	#header h1 a  {
-		text-indent: -999em; /* moves the link's text outside of the A's borders */
-		overflow: hidden; /* makes things outside of the A invisible (aka the text) */
-		display: block;
-		white-space: nowrap;
-	}
 
 #mainwrapper
 {
