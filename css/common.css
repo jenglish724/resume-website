@@ -5,7 +5,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 11pt;
+	font-size: 10pt;
 	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
 	vertical-align: baseline;
 	font-style: normal;
@@ -16,7 +16,7 @@
 
 /* H1 is only used for the logo link at the top of the page */
 h1 {
-	margin: 0 0 10px 0;
+	margin: 20px 0 20px 0;
 	font-size: 20pt; /* always use points for fontsize unless absolutely necessary */
 	color:#CC4547;
 	font-weight:bold;
@@ -35,14 +35,14 @@ h1 {
 
 h2 {
 	margin: 0 0 10px 0;
-	font-size: 18pt; /* always use points for fontsize unless absolutely necessary */
+	font-size: 14pt; /* always use points for fontsize unless absolutely necessary */
 	color:#CC4547;
 	font-weight:bold;
 }
 
 h3 {
 	margin: 10px 0 10px 0;
-	font-size: 14pt;
+	font-size: 12pt;
 	color:#CC4547;
 	font-weight:bold;
 }
@@ -123,7 +123,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 		float: left;
 		margin:0px;
 		padding:0px;
-		font-size:130%;
+		font-size:150%;
 		text-transform:uppercase;
 		width: 120px;
 		line-height: 50px; /* navbar's ul height divided by 2 minus a couple pixels */
