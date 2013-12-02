@@ -1,6 +1,6 @@
 /* adds a little spacing after each section w/ a list */
 #leftcolumn ul {
 	list-style-type: bullet;
-	margin: 0 0 20px 20px;
+	margin: 0 0 20px 25px;
 }
 
