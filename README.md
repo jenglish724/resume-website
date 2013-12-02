@@ -9,8 +9,9 @@ preserve their freshness.
 Below will be the list of problems.
 
 * Social Media icon spacing on contact.html is different than the other 4 pages
-* Links in the resume.html #rightcolumn. Bullets need removed and text needs centered.
+* Links in resume page #column need to be centered better
 * Need to format forms on the contact.html page
+* How do I get e-mail form to just send message and not open mail client
 
 ## This is too 
 
