@@ -6,9 +6,37 @@
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: inherit;
+	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
 	vertical-align: baseline;
 	font-style: normal;
+	text-decoration: none;
+}
+
+/* -=- -=- -=- COMMON TAGS -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- */
+
+/* headers */ 
+h1 {
+	margin: 0 0 10px 0;
+	font-size: 20pt; /* always use points for fontsize unless absolutely necessary */
+	color:#CC4547;
+	font-weight:bold;
+}
+h2 {
+	margin: 0 0 10px 0;
+	font-size: 18pt; /* always use points for fontsize unless absolutely necessary */
+	color:#CC4547;
+	font-weight:bold;
+}
+
+p {
+	text-align:justify;
+}
+
+
+/* -=- -=- -=- GENERIC CLASSES -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- */
+
+.italic {
+	font-style:italic;
 }
 
 
@@ -22,12 +50,22 @@
 	width:35%;
 }
 
-#header
-{
+#header {
 	min-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 }
+	#header h1 {
+		min-width: 280px;
+		min-height: 64px;
+		background: url("../img/header-image.png") no-repeat;
+	}
+	#header h1 a  {
+		text-indent: -999em; /* moves the link's text outside of the A's borders */
+		overflow: hidden; /* makes things outside of the A invisible (aka the text) */
+		display: block;
+		white-space: nowrap;
+	}
 
 #mainwrapper
 {
@@ -37,23 +75,6 @@
 	width: 65%;
 }
 
-h2
-{
-	background:#FFFFFF;
-	margin:auto;
-}
-
-.header-logo
-{
-	padding-bottom:20px;
-	display: block;
-	width: 280px;
-	height: 64px;
-	background: url("../img/header-image.png") no-repeat;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
 
 body
 {
@@ -105,62 +126,58 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 			color:#00D0FF;
 		}
 
-#leftcolumn
-{
-	width:640px;
-	min-height:450px;
-	background:#FFFFFF;
-	float:left;
+
+#content {
+	background: #fff; /* you can also use the XXX instead of XXXXXX */
 }
 
-#leftcolumn p
-{
-	line-height:150%;
-	display:block;
-	padding-top:25px;
-	padding-left:40px;
-	padding-right:40px;
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-}
+	#leftcolumn {
+		width: 640px;
+		float:left;
+		margin: 25px 0 0 0;
+	}
 
-#rightcolumn
-{
-	width:320px;
-/*	height:537px;*/
-	min-height:450px;
-	background:#FFFFFF;
-	float:left;
-}
+		#leftcolumn p {
+			line-height:150%;
+			display:block;
+			margin: 0 40px 24px 40px; 
+		}
 
-#rightcolumn img
-{
-	margin-left:auto;
-	margin-right:auto;
-}
+	#rightcolumn {
+		width:320px;
+		margin: 25px 0 0 0;
+		min-height:450px;
+		background:#FFFFFF;
+		float:left;
+	}
 
-.portraitimage
-{
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
-}
+		#rightcolumn img {
+			margin-left:auto;
+			margin-right:auto;
+		}
 
-#socialmedia
-{
-	margin-top: auto;
-}
+	.portraitimage
+	{
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto;
+	}
 
-#socialmedia ul
-{
-	text-align:center;
-	padding:15px;
-}
+	#socialmedia {
+		margin-top: auto;
+	}
 
-#socialmedia ul li
-{
-	display:inline;
-	margin:0px;
-}
+	#socialmedia ul
+	{
+		text-align:center;
+		padding:15px;
+	}
+
+	#socialmedia ul li
+	{
+		display:inline;
+		margin:0px;
+	}
 
 #footer
 {
@@ -170,17 +187,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 	height:50px;
 }
 
-#footer p
-{
-	padding:10px;
-	text-align:center;
-	font-size:12px;
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-}
+	#footer p
+	{
+		padding:10px;
+		text-align:center;
+		font-size:12px;
+	}
 
-#footer pre
-{
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+#footer pre {
 	font-size:12px;
 	float:right;
 	padding-right:25px;
@@ -201,30 +215,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 	float:right;
 }
 
-.quote
-{
+.quote {
 	text-align:center;
 	line-height:150%;
 	display:block;
 	padding-top:25px;
 	padding-left:40px;
 	padding-right:40px;
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-	font-style:italic;
-}
-
-/* -=- -=- -=- COMMON TAGS -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- */
-
-
-p {
-	text-align:justify;
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-}
-
-
-/* -=- -=- -=- GENERIC CLASSES -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- */
-
-.italic {
 	font-style:italic;
 }
 
