@@ -9,9 +9,9 @@ preserve their freshness.
 Below will be the list of problems.
 
 * Social Media icon spacing on contact.html is different than the other 4 pages
-* Links in resume page #column need to be centered better
 * Need to format forms on the contact.html page
 * How do I get e-mail form to just send message and not open mail client
+* How do I increase the font of the navbar? It isn't the same as it was before.
 
 ## This is too 
 
