@@ -114,17 +114,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 
 	.navbar ul {
 		font-family:"Dolce Vita Heavy", Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-		padding:15px;
+		padding:0 15px;
+		height: 54px; /* needed to be done explicitly because the floats won't stretch this  */
 	}
 
 	.navbar ul li {
-		display:inline;
+		display: block; /* necessary for floating */
+		float: left;
 		margin:0px;
 		padding:0px;
 		font-size:130%;
 		text-transform:uppercase;
-		width: 100px;
+		width: 120px;
+		line-height: 50px; /* navbar's ul height divided by 2 minus a couple pixels */
 	}
+		.navbar ul li:first-of-type {
+			margin-left: 100px; /* adjust this to center the navbar */
+		}
 
 		.navbar ul li a {
 			text-decoration:none;
