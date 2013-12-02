@@ -58,6 +58,13 @@ p {
 	font-style:italic;
 }
 
+/* used right before the end of the #content tags to make sure the 
+   white background stretches all the way (since the left and right
+   columns are floats */
+.clear-both {
+	clear: both;
+}
+
 
 /* -=- -=- -=- TEMPLATE RELATED -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- -=- */
 
