@@ -20,8 +20,6 @@ h1 {
 	font-size: 20pt; /* always use points for fontsize unless absolutely necessary */
 	color:#CC4547;
 	font-weight:bold;
-	min-width: 280px;
-	min-height: 64px;
 	margin-left: auto;
 	margin-right: auto;
 	background: url("../img/header-image.png") no-repeat;
@@ -31,6 +29,8 @@ h1 {
 		overflow: hidden; /* makes things outside of the A invisible (aka the text) */
 		display: block;
 		white-space: nowrap;
+		min-width: 280px;
+		min-height: 64px;
 	}
 
 h2 {
