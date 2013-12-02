@@ -1,0 +1,17 @@
+/* Styles specific to the contact form */
+
+/* this wraps each row of the form */
+form div {
+	margin: 5px 0;
+}
+	form div div.label {
+		float: left;
+		min-width: 100px;
+	}
+	
+	/* add some padding a black outline around the text inputs */
+	form input[type="text"] {
+		padding: 5px 10px;
+		border: 1px solid #000;
+	}
+	
