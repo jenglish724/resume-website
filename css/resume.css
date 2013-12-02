@@ -1,58 +1,6 @@
-#leftcolumn h2
-{
-	font-weight:bold;
-	color:#CC4547;
-	text-align:justify;
-	line-height:150%;
-	display:block;
-	padding-left:40px;
-	padding-right:40px;
-	padding-bottom:10px;
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-	font-size:15px;
+/* adds a little spacing after each section w/ a list */
+#leftcolumn ul {
+	list-style-type: bullet;
+	margin: 0 0 20px 20px;
 }
 
-#leftcolumn h3
-{
-	color:#CC4547;
-	text-align:justify;
-	line-height:150%;
-	display:block;
-	padding-left:80px;
-	padding-right:40px;
-	font-family:Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-	font-size:12px;	
-}
-
-#leftcolumn ul
-{
-	padding-bottom:10px;
-}
-
-#leftcolumn ul li
-{
-	text-align: justify;
-	line-height: 150%;
-	display: block;
-	padding-left: 80px;
-	padding-right: 40px;
-	padding-bottom:5px;
-	font-family: Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-	font-size: 12px;
-}
-
-#rightcolumn ul
-{
-	text-align:center;
-}
-
-#rightcolumn ul li
-{
-	font-family: Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
-	font-size: 12px;
-}
-
-
-
-
-	
