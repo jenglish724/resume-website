@@ -133,6 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 		}
 
 		.navbar ul li a {
+			font-size:18px;
 			text-decoration:none;
 			color:#FFFFFF;
 		}
