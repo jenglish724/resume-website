@@ -187,13 +187,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04d8794', e
 	}
 
 		#socialmedia ul {
+			display:table;
+			width:100%;
 			text-align:center;
 			margin: 15px 0 0 0;
 		}
 
 	#socialmedia ul li
 	{
-		display:inline; /*I know that problem is here. FF/IE work OK with it. CH does not. Using float:left seems to make everything okay, but then it isn't centered.*/
+		display:table-cell; /*I know that problem is here. FF/IE work OK with it. CH does not. Using float:left seems to make everything okay, but then it isn't centered.*/
 		margin:0 0 30px 0;
 	}
 
